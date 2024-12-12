@@ -1,0 +1,8 @@
+---
+# tasks file for helloworld
+- name: helloworld
+  debug:
+    msg: "Hello World"
+- name: Display the config
+  debug:
+    msg: "The hostname is {{ ansible_hostname }}"
